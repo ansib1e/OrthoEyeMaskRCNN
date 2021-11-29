@@ -32,11 +32,11 @@ except Exception:
     install_reqs = []
 
 setup(
-    name='mask-rcnn-tf2',
+    name='OrthoEyeMaskRCNN',
     version='1.0',
-    url='https://github.com/ahmedfgad/Mask-RCNN-TF2',
-    author='Ahmed Fawzy Gad',
-    author_email='ahmed.f.gad@gmail.com',
+    url='https://github.com/ansib1e/OrthoEyeMaskRCNN',
+    author='Hubert Yoo',
+    author_email='ansib1e@protonmail.com',
     license='MIT',
     description='Object Detecting using Mask R-CNN in TensorFlow 2.0',
     packages=["mrcnn"],
