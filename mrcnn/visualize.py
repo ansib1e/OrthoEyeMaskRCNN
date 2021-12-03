@@ -190,8 +190,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     output_mask = masked_image.astype(np.uint8)
     if not (save_fig_path is None):
         plt.savefig(save_fig_path, bbox_inches="tight")
-    #if auto_show:
-        #plt.show()
+    if auto_show:
+        plt.show()
     return output_mask
 
 def display_differences(image,
